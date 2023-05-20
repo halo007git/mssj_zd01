@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="120" height="194" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="26">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="120" height="194" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="30">
  <tileset firstgid="1" source="333.tsx"/>
  <layer id="1" name="bg" width="120" height="194">
   <data encoding="base64" compression="gzip">
@@ -11,9 +11,9 @@
    H4sIAAAAAAAACu3RSU5VARRF0Tcf/jQQRLEHKggzAaWclQWF9hQUcCYKqBD2DEzofF5YK9n9e3KHAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABir2ZlheFJzNV9Pa6Ge1fNarBcz077y/ja6fbPe1rvaqu3aqd3aq/0R7/uf9237UB/rUx3UYR3VcX2uLyPe/6vbf9dlXdV1/am/9a9u6nbE+x66pckwLNfLelWva6VW602t1fpk2ldyX1/73bc6qdP6Xj/qrM7ron76LwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI/cHRWTgAHAawEA
   </data>
  </layer>
- <objectgroup id="3" name="colliderLayer">
+ <objectgroup color="#ffff7f" id="3" name="collider">
   <object id="18" x="575.5" y="1503.5" width="194" height="97.5"/>
-  <object id="22" x="404.833" y="1399.88">
+  <object id="22" x="926.166" y="1029.21">
    <polygon points="17.3333,-6 124,8.12121 76.7796,66.7879 6.49462,45.8182"/>
   </object>
   <object id="23" x="480.667" y="1089.33">
@@ -22,6 +22,19 @@
   <object id="24" x="832.061" y="1408.06" width="160" height="30.8182"/>
   <object id="25" x="1088.75" y="1536">
    <polygon points="0,0 191.25,1 190.25,95 96.25,95 96.25,161.167 -1.08333,158.667"/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#55ff00" id="4" name="trigger">
+  <object id="27" x="441.178" y="1403.03" width="42.8523" height="42.8523">
+   <properties>
+    <property name="jsonProp" value="{&quot;rigidType&quot;:&quot;static&quot;,&quot;action&quot;:&quot;changeMap&quot;,&quot;dest&quot;:&quot;map/02/555&quot;,&quot;dummy&quot;:1}"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="28" x="904.375" y="1439.13" width="13.875" height="20.4545">
+   <properties>
+    <property name="jsonProp" value="{&quot;rigidType&quot;:&quot;sensor&quot;,&quot;action&quot;:&quot;changeMap&quot;,&quot;dest&quot;:&quot;map/02/555&quot;,&quot;dummy&quot;:1}"/>
+   </properties>
   </object>
  </objectgroup>
 </map>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="40" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="11">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="40" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="12">
  <tileset firstgid="1" source="555.tsx"/>
  <layer id="1" name="bg" width="40" height="30">
   <data encoding="csv">
@@ -69,16 +69,23 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="3" name="colliderLayer">
+ <objectgroup color="#ffff7f" id="3" name="collider">
   <object id="1" x="339.75" y="268.5" width="72.6667" height="108.083"/>
   <object id="3" x="6.41667" y="339.167" width="180.667" height="137.417"/>
   <object id="2" x="225" y="377.291" width="299.333" height="102.75"/>
-  <object id="4" x="7.66665" y="101.958" width="177.333" height="65.7503"/>
-  <object id="5" x="177.334" y="67.2915" width="163.833" height="80.917"/>
-  <object id="6" x="338.584" y="144.541" width="75.833" height="60.917"/>
+  <object id="4" x="7.66665" y="101.958" width="177.333" height="63.0836"/>
+  <object id="5" x="177.334" y="67.2915" width="163.833" height="70.917"/>
+  <object id="6" x="338.584" y="144.541" width="75.833" height="55.5837"/>
   <object id="8" x="452.084" y="224.041" width="36.833" height="74.417"/>
-  <object id="7" x="405.084" y="67.0415" width="233.333" height="80.917"/>
+  <object id="7" x="405.084" y="67.0415" width="233.333" height="60.2503"/>
   <object id="9" x="490.584" y="223.541" width="74.333" height="38.417"/>
   <object id="10" x="0.916833" y="225.875" width="188.166" height="44.5837"/>
+ </objectgroup>
+ <objectgroup color="#00aa00" id="4" name="trigger">
+  <object id="11" x="215" y="138" width="18.6667" height="14.6667">
+   <properties>
+    <property name="jsonProp" value="{&quot;rigidType&quot;:&quot;sensor&quot;,&quot;action&quot;:&quot;changeMap&quot;,&quot;dest&quot;:&quot;map/01/333&quot;,&quot;dummy&quot;:1}"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
