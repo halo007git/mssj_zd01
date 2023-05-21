@@ -33,7 +33,7 @@
   </object>
   <object id="28" x="904.375" y="1439.13" width="13.875" height="11.5455">
    <properties>
-    <property name="jsonProp" value="{&quot;rigidType&quot;:&quot;sensor&quot;,&quot;onTrigger&quot;:&quot;showAction&quot;,&quot;action&quot;:&quot;changeMap&quot;,&quot;destMap&quot;:&quot;map/02/555&quot;,&quot;dummy&quot;:1}"/>
+    <property name="jsonProp" value="{&quot;rigidType&quot;:&quot;sensor&quot;,&quot;onTrigger&quot;:&quot;showAction&quot;,&quot;action&quot;:&quot;showDialog&quot;,&quot;destMap&quot;:&quot;map/02/555&quot;,&quot;dummy&quot;:1}"/>
    </properties>
   </object>
   <object id="30" x="678.667" y="1400">
