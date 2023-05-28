@@ -1,0 +1,1 @@
+[1,0,0,[["cc.TextAsset",["_name","text"],1]],[[0,0,1,3]],[[0,"factory","<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tileset version=\"1.4\" tiledversion=\"1.4.2\" name=\"factory\" tilewidth=\"16\" tileheight=\"16\" tilecount=\"32\" columns=\"8\">\n <image source=\"../gfx/tilesets/factory.png\" width=\"128\" height=\"64\"/>\n</tileset>\n"]],0,0,[],[],[]]
