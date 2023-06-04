@@ -69,7 +69,7 @@
  </objectgroup>
  <objectgroup color="#00aa00" id="5" name="object">
   <object id="4" name="LiXieLiYaBao_RuKou" x="412.008" y="474.909" width="23.9052" height="4.54545"/>
-  <object id="6" name="born01" x="317.315" y="595.38">
+  <object id="6" name="born01" x="295.982" y="430.713">
    <point/>
   </object>
   <object id="8" name="YiYuan_RuKou" x="219.977" y="166.311" width="23.9432" height="5.45455"/>
