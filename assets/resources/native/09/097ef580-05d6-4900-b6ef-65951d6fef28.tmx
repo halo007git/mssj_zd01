@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="48">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="49">
  <tileset firstgid="1" name="Basic_Buch_Tiles_Compiled" tilewidth="16" tileheight="16" tilecount="448" columns="32">
   <image source="../../../../../../image/tuxemon/Basic_Buch_Tiles_Compiled.png" width="512" height="224"/>
  </tileset>
@@ -69,20 +69,20 @@
  </objectgroup>
  <objectgroup color="#00aa00" id="5" name="object">
   <object id="4" name="LiXieLiYaBao_RuKou" x="412.008" y="474.909" width="23.9052" height="4.54545"/>
-  <object id="6" name="born01" x="439.833" y="671.167">
+  <object id="6" name="born01" x="317.315" y="595.38">
    <point/>
   </object>
   <object id="8" name="YiYuan_RuKou" x="219.977" y="166.311" width="23.9432" height="5.45455"/>
   <object id="25" name="JiuBa_RuKou" x="614.792" y="213.958" width="33.2917" height="9"/>
   <object id="29" name="LvGuan_RuKou" x="125.682" y="682.091" width="23.7273" height="8.09091"/>
   <object id="30" name="ShangDian_RuKou" x="120.226" y="548.667" width="31.8523" height="5.45455"/>
-  <object id="31" name="YouKe01" x="366.667" y="244.667">
+  <object id="31" name="YouKe01" x="383.167" y="552.167">
    <point/>
   </object>
   <object id="33" name="MingJu01_RuKou" x="136.091" y="55.5227" width="31.8807" height="5.45455"/>
   <object id="42" name="TmxConf" x="3" y="-1.5">
    <properties>
-    <property name="jsonProp" value="{&quot;tmxConf&quot;: &quot;tmxConf://SCRIPT_ROOT/world/FaLan/FuLeiYa/Middle/FalanCheng/_here/map/TmxConf_FaLanCheng&quot;}"/>
+    <property name="jsonProp" value="{&quot;tmxConf&quot;: &quot;tmxConf://eac332b3-782c-cc8a-826e-9e40f4517744/FaLanCheng&quot;}"/>
    </properties>
    <point/>
   </object>
