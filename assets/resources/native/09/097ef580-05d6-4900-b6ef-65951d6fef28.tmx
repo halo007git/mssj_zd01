@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="49">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="50">
  <tileset firstgid="1" name="Basic_Buch_Tiles_Compiled" tilewidth="16" tileheight="16" tilecount="448" columns="32">
   <image source="../../../../../../image/tuxemon/Basic_Buch_Tiles_Compiled.png" width="512" height="224"/>
  </tileset>
@@ -69,7 +69,7 @@
  </objectgroup>
  <objectgroup color="#00aa00" id="5" name="object">
   <object id="4" name="LiXieLiYaBao_RuKou" x="412.008" y="474.909" width="23.9052" height="4.54545"/>
-  <object id="6" name="born01" x="295.982" y="430.713">
+  <object id="6" name="born01" x="231.482" y="614.213">
    <point/>
   </object>
   <object id="8" name="YiYuan_RuKou" x="219.977" y="166.311" width="23.9432" height="5.45455"/>
@@ -82,7 +82,7 @@
   <object id="33" name="MingJu01_RuKou" x="136.091" y="55.5227" width="31.8807" height="5.45455"/>
   <object id="42" name="TmxConf" x="3" y="-1.5">
    <properties>
-    <property name="jsonProp" value="{&quot;tmxConf&quot;: &quot;tmxConf://eac332b3-782c-cc8a-826e-9e40f4517744/FaLanCheng&quot;}"/>
+    <property name="jsonProp" value="{&quot;tmxConf&quot;: &quot;tmxConf://mm27SDB2yV/FaLanCheng&quot;}"/>
    </properties>
    <point/>
   </object>
@@ -91,6 +91,9 @@
   </object>
   <object id="45" name="PaiZi01" x="451.5" y="608.25" width="8.5" height="2.25"/>
   <object id="46" name="ShangDian_ChuKou" x="136" y="595.333">
+   <point/>
+  </object>
+  <object id="49" name="npc_SuSan" x="305" y="641.5">
    <point/>
   </object>
  </objectgroup>

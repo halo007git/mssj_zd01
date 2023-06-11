@@ -163,7 +163,7 @@
   <object id="39" name="exit01" x="91.7465" y="178.783" width="24.2503" height="4.98875"/>
   <object id="45" name="TmxConf" x="3.34551" y="-1.93045">
    <properties>
-    <property name="jsonProp" value="{&quot;tmxConf&quot;: &quot;tmxConf://c5c1d4d0-1d7b-4d0c-8f2e-3e8b5d4f1d9a/YiYuan&quot;}"/>
+    <property name="jsonProp" value="{&quot;tmxConf&quot;: &quot;tmxConf://eLfCR0Wt7J/YiYuan&quot;}"/>
    </properties>
    <point/>
   </object>
